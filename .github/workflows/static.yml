@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Konor</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #2a2a2a);
+      color: #ffffff;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #d0d0d0;
+    }
+
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Konor</h1>
+    <p>Jovem Aprendiz | Estudante de Análise e Desenvolvimento de Sistemas</p>
+  </header>
+
+  <section>
+    <h2>Sobre mim</h2>
+    <div class="card">
+      <p>
+        Sou estudante de Análise e Desenvolvimento de Sistemas, em busca da minha primeira oportunidade como Jovem Aprendiz.
+        Tenho interesse em tecnologia e área administrativa, com foco em aprendizado contínuo, organização e desenvolvimento profissional.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Formação</h2>
+    <div class="card">
+      <p>
+        <strong>Análise e Desenvolvimento de Sistemas</strong><br>
+        UniFaecar – Cursando (1º período)
+      </p>
+
+      <p>
+        <strong>Ensino Médio Completo</strong><br>
+        Colégio Adventista de Araucária
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projetos</h2>
+    <div class="card">
+      <p><strong>Projetos acadêmicos e pessoais</strong></p>
+      <p>
+        Atualmente desenvolvendo projetos simples para estudo, como páginas HTML,
+        exercícios de lógica de programação e atividades práticas da faculdade.
+      </p>
+      <p>Em breve, links para GitHub.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Habilidades</h2>
+    <div class="card">
+      <ul>
+        <li>Comunicação e organização</li>
+        <li>Word e Excel (básico)</li>
+        <li>Canva (intermediário)</li>
+        <li>Edição de vídeos (iniciante)</li>
+        <li>Internet e redes sociais</li>
+        <li>Ferramentas de IA (ChatGPT, Canva, etc.)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contato</h2>
+    <div class="card">
+      <p>
+        LinkedIn: <a href="#">adicione seu link aqui</a><br>
+        GitHub: <a href="#">adicione seu link aqui</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 – Portfólio pessoal</p>
+  </footer>
+
+</body>
+</html>
